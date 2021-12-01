@@ -1,0 +1,28 @@
+#NberOfAppliances 1
+#Outlet1 Vacuum_cleaner_5 
+#Config1 Power level 100% - No load
+#Outlet2 
+#Config2 
+#Outlet3
+#Config3
+#Outlet4
+#Config4
+#Outlet5
+#Config5
+#Outlet6
+#Config6
+#Variables definition
+#act: actions (ON=1/OFF=0)
+#sofa: selected outlet for each action
+#ad: action delay wrt volt. Zero-Cross. (µs)
+#tbna: time before next action (ms)
+#Scenario
+tbna0=500
+act1=1
+sofa1=1
+ad1=2000
+tbna1=4500
+act2=0
+sofa2=1
+ad2=0
+tbna2=1000
